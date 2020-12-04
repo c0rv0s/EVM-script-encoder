@@ -1,0 +1,25 @@
+{
+  "name": "evm-script-creator",
+  "version": "1.0.0",
+  "description": "Standalone tool to create EVM scripts for Aragon Voting proposals",
+  "main": "src/index.js",
+  "dependencies": {
+    "@aragon/test-helpers": "2.1.0",
+    "ethereumjs-abi": "^0.6.8",
+    "web3-eth-abi": "^1.2.4"
+  },
+  "scripts": {
+    "start": "node .",
+    "execute": "node .",
+    "test": "jest test/"
+  },
+  "keywords": [
+    "evm",
+    "aragon"
+  ],
+  "author": "Nathan Mueller",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
